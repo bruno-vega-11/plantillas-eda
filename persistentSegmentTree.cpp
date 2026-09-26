@@ -8,7 +8,8 @@ using namespace std;
 // PERSISTENT SEGMENT TREE
 // Es parcial y total
 // Implementada con punteros,
-// donde root[H] = raiz de la version v del  SEGMENT TREE
+// donde root[H] = raiz de la version v del SEGMENT TREE
+// cada actualizacion O(logn) memoria adicional y O(logn) tiempo
 // ============================================================
 struct Node {
     int k;

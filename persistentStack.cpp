@@ -9,6 +9,7 @@ using namespace std;
 // Es parcial y total
 // Implementada como una lista enlazada
 // donde head[H] = top de un Stack
+// cada actualizacion es O(1) memoria y O(1) tiempo
 // ============================================================
 
 
