@@ -63,8 +63,20 @@ struct persistentStack {
     persistentStack() {
         versiones.push_back(nullptr);
     }
+
 };
 
 int main() {
+    persistentStack Pila;
+    Node* version_0 = Pila.queue_version(0);
+    Node* version_1 = Pila.push_persistent(version_0,5);
+    Node* version_2 = Pila.push_persistent(version_1,10);
+    Node* version_3 = Pila.push_persistent(version_2,20);
+    Node* version_4 = Pila.pop_persistent(version_2);
 
+    for (int i = 0; i <= 4; i++) {
+        Pila.print_version(i);
+    }
+
+    return 0;
 }

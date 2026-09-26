@@ -8,3 +8,4 @@ add_executable(Teoria main.cpp
         binomialHeap.cpp
         fibonacciHeap.cpp)
 add_executable(persistencia_one persistentStack.cpp)
+add_executable(persistencia_two persistentSegmentTree.cpp)
