@@ -7,3 +7,4 @@ add_executable(Teoria main.cpp
         binaryHeap.cpp
         binomialHeap.cpp
         fibonacciHeap.cpp)
+add_executable(persistencia_one persistentStack.cpp)
