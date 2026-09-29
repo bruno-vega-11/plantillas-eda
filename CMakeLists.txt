@@ -10,3 +10,5 @@ add_executable(Teoria main.cpp
 add_executable(persistencia_one persistentStack.cpp)
 add_executable(persistencia_two persistentSegmentTree.cpp)
 add_executable(persistencia_three persistentTrie.cpp)
+add_executable(persistencia_fourth persistentQueue.cpp)
+add_executable(ppl_one fenwickTree.cpp)
